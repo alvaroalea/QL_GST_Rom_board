@@ -5,13 +5,10 @@
 	(uuid "aecd9f77-969e-41c8-a7ad-8348a70f1d7d")
 	(paper "A3")
 	(title_block
-		(title "Sinclair QL Interface Template")
-		(date "2022-01-16")
+		(title "Sinclair QL ROM Board")
+		(date "2025-08-01")
 		(rev "0.0")
 		(company "Alvaro Alea Fernandez")
-		(comment 1 "Use this schematic as a template for ")
-		(comment 2 "projects of interface for sinclair QL")
-		(comment 3 "Basic Circuits and PCB Dimensions")
 	)
 	(lib_symbols
 		(symbol "74xx:74LS12"
@@ -13683,7 +13680,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
+		(property "Value" "22uF/16V"
 			(at 34.29 260.3499 0)
 			(effects
 				(font
@@ -14212,7 +14209,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100n"
 			(at 96.52 260.3499 0)
 			(effects
 				(font
@@ -16201,7 +16198,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100n"
 			(at 62.23 260.3499 0)
 			(effects
 				(font
@@ -17458,7 +17455,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100n"
 			(at 85.09 260.3499 0)
 			(effects
 				(font
@@ -17594,7 +17591,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "2K2"
 			(at 156.21 152.3999 0)
 			(effects
 				(font
@@ -17603,7 +17600,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 151.892 151.13 90)
 			(effects
 				(font
@@ -18792,7 +18789,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "2K2"
 			(at 203.2 156.2099 0)
 			(effects
 				(font
@@ -18801,7 +18798,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
 			(at 198.882 154.94 90)
 			(effects
 				(font
