@@ -12,15 +12,18 @@ My work is only copy the design to Kicad, all (C) are retaing to the original ow
 
 ## IF YOU HAVE ADITIONAL INFORMATION OF THIS BOARD OR CAN PROVIDE DETAILLED PICTURES OF ONE, PLEASE CONTACT ME.
 
-I think this board provide up to 4 x 16kB Rom (27128) expansion for the QL.
+This board provide up to 4 x 16kB Rom (27128) expansion for the QL.
 
-Is not clear the operation of the switch.
+the intention of this board is to be used with GST's own operation system 68K/OS, the 2 top IC are filler with the OS itself and the two bottons are reserverd for ROM-Disk that this OS support.
 
-With the information o got from reverse engieering the chips are mapped to 0x40000, 0x44000, 0x48000, 0x4C000, This mean that this expansion board is located in the normal 512Kb expansion RAM area, and area incompatible with trump card, any expansion board, and also area useless on QDOS or Minvera, probably the intention of this board is to be used with GST's own operation system 68K/OS.
+The switch select next boot OS, on top is 68K/OS and on botom is the internal Qdos OS.
 
-I will update this repository as soon as I got more information.
+The chips are mapped to 0x00000, 0x04000, 0x08000, 0x0C000, can be also used to test Minerva, TK2, or the Test Rom.
+
+It's included the freecad and STL files for the puller that include the original board.
 
 ![PCB Componentes Side](pcb_comp.png)
 
 ![PCB Solder Side](pcb_sold.png)
 
+![3D Puller](tirador.png)

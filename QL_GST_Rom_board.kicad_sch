@@ -14122,7 +14122,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_DP3T"
+		(property "Value" "SK23D05 Type 6+2"
 			(at 110.49 181.61 0)
 			(effects
 				(font
@@ -14712,7 +14712,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92L_Inline_Wide"
 			(at 191.77 192.405 0)
 			(effects
 				(font
@@ -16406,7 +16406,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_DP3T"
+		(property "Value" "SK23D05 Type 6+2"
 			(at 109.22 213.36 0)
 			(effects
 				(font
