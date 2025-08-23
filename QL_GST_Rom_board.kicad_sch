@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "Sinclair QL ROM Board")
-		(date "2025-08-01")
+		(date "2025-08-23")
 		(rev "0.0")
 		(company "Alvaro Alea Fernandez")
 	)
@@ -5621,6 +5621,312 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SW_DP3T_1"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW1"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SK23D05 Type 6+2"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "8bits:Switch_3PDT_Horizontal_earthlugs"
+				(at -15.875 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at -15.875 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switch, three position, dual pole triple throw, 3 position switch, SP3T"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch dp3t ON-ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SW* DP3T*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_DP3T_1_0_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_DP3T_1_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -8.89 90)
+					(length 5.08)
+					(name "CASE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SW_DP3T_1_2_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_DP3T"
 			(pin_names
 				(offset 0)
@@ -5629,23 +5935,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 5.08 0)
+			(property "Reference" "SW1"
+				(at 0 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "SW_DP3T"
-				(at 0 -5.08 0)
+			(property "Value" "SK23D05 Type 6+2"
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "8bits:Switch_3PDT_Horizontal_earthlugs"
 				(at -15.875 4.445 0)
 				(effects
 					(font
@@ -5771,6 +6077,24 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -8.89 90)
+					(length 5.08)
+					(name "CASE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "0"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6666,6 +6990,12 @@
 		(uuid "4c7db57e-dc12-4d8e-b1b9-594285519b6c")
 	)
 	(junction
+		(at 102.87 196.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52c94c38-c94a-4f27-ab7c-d2cb19103a35")
+	)
+	(junction
 		(at 152.4 245.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6844,6 +7174,18 @@
 		(uuid "6eee9863-4e9c-4c94-8431-81ce96639d85")
 	)
 	(no_connect
+		(at 36.83 99.06)
+		(uuid "75d67b9b-7b1c-4800-a371-c69d9573381d")
+	)
+	(no_connect
+		(at 36.83 106.68)
+		(uuid "8790295f-1ac3-46b4-9da6-e545cd39b500")
+	)
+	(no_connect
+		(at 62.23 99.06)
+		(uuid "8dc63f44-4e55-47af-976f-da4fb6db526b")
+	)
+	(no_connect
 		(at 62.23 104.14)
 		(uuid "9950266c-1256-4d5a-bab3-9a83f474120f")
 	)
@@ -6874,6 +7216,10 @@
 	(no_connect
 		(at 62.23 58.42)
 		(uuid "adbb91e5-fc98-4c11-b5cc-41655d290c8d")
+	)
+	(no_connect
+		(at 36.83 104.14)
+		(uuid "c3da15cc-347c-4080-83e9-fced645ceb90")
 	)
 	(no_connect
 		(at 36.83 109.22)
@@ -8313,16 +8659,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 99.06) (xy 71.12 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18f914d1-7582-440f-8077-b30716f649f3")
-	)
-	(wire
-		(pts
 			(xy 21.59 53.34) (xy 36.83 53.34)
 		)
 		(stroke
@@ -9743,6 +10079,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 198.12) (xy 102.87 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68c41073-14a6-4f3d-af8d-d710cc4b0375")
+	)
+	(wire
+		(pts
 			(xy 62.23 53.34) (xy 71.12 53.34)
 		)
 		(stroke
@@ -10153,6 +10499,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 190.5) (xy 105.41 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8583a727-beeb-438f-8ecd-3cfea639cbe7")
+	)
+	(wire
+		(pts
 			(xy 152.4 245.11) (xy 152.4 246.38)
 		)
 		(stroke
@@ -10261,16 +10617,6 @@
 		)
 		(uuid "8bae51d7-e859-4b66-9db3-8b17b644bd14")
 	)
-	(wire
-		(pts
-			(xy 27.94 106.68) (xy 36.83 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8bf0e9ae-aaf3-4cde-ae18-6681aaa22425")
-	)
 	(bus
 		(pts
 			(xy 199.39 48.26) (xy 199.39 50.8)
@@ -10310,16 +10656,6 @@
 			(type default)
 		)
 		(uuid "8d1b2886-8813-4b2e-865f-3472ee13f12d")
-	)
-	(wire
-		(pts
-			(xy 27.94 104.14) (xy 36.83 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ef778d5-8a09-47af-9648-910ce0353e39")
 	)
 	(bus
 		(pts
@@ -10500,16 +10836,6 @@
 			(type default)
 		)
 		(uuid "9cbc9592-18bd-4398-bc8a-2e8dce6fde97")
-	)
-	(wire
-		(pts
-			(xy 27.94 99.06) (xy 36.83 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9df5d330-7cb2-440a-b79e-1219d84740eb")
 	)
 	(wire
 		(pts
@@ -11653,6 +11979,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 196.85) (xy 110.49 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9ff160b-c8ab-410a-a9b9-515a171b85e4")
+	)
+	(wire
+		(pts
 			(xy 220.98 81.28) (xy 218.44 81.28)
 		)
 		(stroke
@@ -11803,6 +12139,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 196.85) (xy 102.87 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eec7cee5-1953-41e1-bfdf-468a1c8d28e9")
+	)
+	(wire
+		(pts
 			(xy 273.05 78.74) (xy 273.05 81.28)
 		)
 		(stroke
@@ -11920,16 +12266,6 @@
 			(type default)
 		)
 		(uuid "f6a035f9-9acc-4a48-9b97-c00b79635a5e")
-	)
-	(wire
-		(pts
-			(xy 101.6 190.5) (xy 105.41 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f70c5a71-4db3-49a1-8377-5aedf5171ed3")
 	)
 	(bus
 		(pts
@@ -12160,16 +12496,6 @@
 			(justify left bottom)
 		)
 		(uuid "0f3fa9c4-1c8e-4a35-bb8d-263142c3d762")
-	)
-	(label "O_SP2"
-		(at 29.21 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0f7f95a6-3343-49b5-8712-e2c908851fa4")
 	)
 	(label "SW1_C"
 		(at 115.57 187.96 0)
@@ -12551,16 +12877,6 @@
 		)
 		(uuid "44aae8cf-c14f-4879-8e9a-adb2e44c0b55")
 	)
-	(label "O_SP1"
-		(at 29.21 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "49988009-696b-48eb-a1ab-50dece2937a3")
-	)
 	(label "D0"
 		(at 132.08 40.64 0)
 		(effects
@@ -12740,16 +13056,6 @@
 			(justify left bottom)
 		)
 		(uuid "6929f0cd-20de-446d-ad69-cba52e044c7f")
-	)
-	(label "O_SP0"
-		(at 29.21 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6b5cfc25-39af-45c3-b48d-9721f575c7d5")
 	)
 	(label "D5"
 		(at 295.91 53.34 0)
@@ -13621,16 +13927,6 @@
 		)
 		(uuid "eeada4db-979f-4fcd-b48c-79c36a5b0fb8")
 	)
-	(label "O_SP3"
-		(at 66.04 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f19791a4-61c6-4121-a491-c7fb6c038267")
-	)
 	(label "A3"
 		(at 105.41 48.26 0)
 		(effects
@@ -14180,6 +14476,9 @@
 		)
 		(pin "2"
 			(uuid "04217c60-b997-4e5d-a025-d1bac74f3696")
+		)
+		(pin "0"
+			(uuid "ba36d279-4bf5-4d41-a7be-097b86e66535")
 		)
 		(instances
 			(project ""
@@ -16389,6 +16688,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SW_DP3T_1")
 		(lib_id "Switch:SW_DP3T")
 		(at 109.22 219.71 0)
 		(mirror y)
@@ -16464,6 +16764,9 @@
 		)
 		(pin "2"
 			(uuid "04217c60-b997-4e5d-a025-d1bac74f3697")
+		)
+		(pin "0"
+			(uuid "a9367929-1007-4007-91a9-5bead17bd06d")
 		)
 		(instances
 			(project ""
@@ -18538,7 +18841,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 101.6 190.5 0)
+		(at 102.87 198.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18547,7 +18850,7 @@
 		(fields_autoplaced yes)
 		(uuid "e687adee-3e63-4e14-9ea5-fa982aba488c")
 		(property "Reference" "#PWR03"
-			(at 101.6 196.85 0)
+			(at 102.87 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18556,7 +18859,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 101.6 195.58 0)
+			(at 102.87 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18564,7 +18867,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 190.5 0)
+			(at 102.87 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18573,7 +18876,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 190.5 0)
+			(at 102.87 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18582,7 +18885,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 101.6 190.5 0)
+			(at 102.87 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
